@@ -1,25 +1,7 @@
-require("rose-pine").setup({
-	palette = {
-		moon = {
-			base = "#14171f",
-			surface = "#181b25",
-			overlay = "#1e222e",
-			gold = "#d1d4e1",
-		},
-	},
-	highlight_groups = {
-		-- Visual = { bg = "overlay", fg = "gold" },
-		WhichKeyBorder = { fg = "pine" },
-		WhichKeyGroup = { fg = "pine" },
-		WhichKey = { fg = "pine" },
-		String = { fg = "#68aeca" },
-		["@keyword.import"] = { fg = "rose" },
-		["@type"] = { fg = "rose" },
-		["@string.escape"] = { fg = "iris" },
-	},
+require("tokyonight").setup({
 })
 
-vim.cmd.colorscheme("rose-pine-moon")
+vim.cmd.colorscheme("tokyonight-night")
 vim.cmd.hi("@type gui=bold")
 vim.cmd.hi("Visual gui=bold")
 vim.cmd.hi("Comment gui=none")
