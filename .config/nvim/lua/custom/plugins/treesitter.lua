@@ -5,6 +5,7 @@ return {
 		ensure_installed = {
 			"bash",
 			"c",
+			"cpp",
 			"diff",
 			"html",
 			"lua",
@@ -19,6 +20,7 @@ return {
 		highlight = {
 			enable = true,
 		},
+		additional_vim_regex_highlighting = false,
 		indent = { enable = true },
 	},
 	config = function(_, opts)

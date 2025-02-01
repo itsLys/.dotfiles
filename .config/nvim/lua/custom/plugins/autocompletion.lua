@@ -42,8 +42,8 @@ return {
 			completion = { completeopt = "menu,menuone,noinsert" },
 			-- TODO: `:help ins-completion`
 			mapping = cmp.mapping.preset.insert({
-				["<S-j>"] = cmp.mapping.select_next_item(),
-				["<S-k>"] = cmp.mapping.select_prev_item(),
+				["<M-j>"] = cmp.mapping.select_next_item(),
+				["<M-k>"] = cmp.mapping.select_prev_item(),
 				["<C-b>"] = cmp.mapping.scroll_docs(-4),
 				["<C-f>"] = cmp.mapping.scroll_docs(4),
 				["<S-Tab>"] = cmp.mapping.confirm({ select = true }),
@@ -72,6 +72,7 @@ return {
 				{ name = "nvim_lsp" },
 				{ name = "luasnip" },
 				{ name = "path" },
+				{ name = "buffer" },
 			},
 		})
 	end,

@@ -4,6 +4,7 @@ local actions = require("telescope.actions")
 
 require("telescope").setup({
 	defaults = {
+		initial_mode = "normal",
 		mappings = {
 			-- i = { ['<c-enter>'] = 'to_fuzzy_refine' },
 			i = {
